@@ -1,0 +1,32 @@
+.thumbnail,
+.fullsize {
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+.thumbnail.active {
+  border: 2px solid blue; /* Highlight the selected thumbnail */
+}
+
+.fullsize {
+  display: none;
+  margin: 0 auto;
+}
+
+.fullsize.active {
+  display: block;
+}
+
+.container {
+  text-align: center;
+}
+
+.separator {
+  margin: 20px 0;
+  border-top: 10px solid #ccc;
+}
