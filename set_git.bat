@@ -8,5 +8,5 @@ git init
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/AlmogKadsoh/WebEx08.git
+https://github.com/tanya1995-31/webprojmain.git
 git push -u origin main
